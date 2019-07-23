@@ -33,6 +33,6 @@ Make this script executable by setting executable permissions and then run:
 ```
 Captured screenshot will be saved as ```output.png``` file in current directory.
 
-#License
+# License
 
 The MIT License (MIT)    
