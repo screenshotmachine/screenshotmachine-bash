@@ -9,7 +9,7 @@ DEVICE="desktop"
 FORMAT="png"
 CACHE_LIMIT="0"
 DELAY="2000"
-
+ZOOM="100"
 
 ARGS=(
 --data-urlencode "key=$CUSTOMER_KEY" \
@@ -18,6 +18,7 @@ ARGS=(
 --data-urlencode "format=$FORMAT" \
 --data-urlencode "cacheLimit=$CACHE_LIMIT" \
 --data-urlencode "delay=$DELAY" \
+--data-urlencode "zoom=$ZOOM" \
 --data-urlencode "url=$URL"
 )
 

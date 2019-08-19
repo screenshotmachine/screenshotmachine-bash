@@ -21,8 +21,9 @@ DEVICE="desktop"
 FORMAT="png"
 CACHE_LIMIT="0"
 DELAY="2000"
+ZOOM="100"
 ```
-More info about options can be found in our [API guide](https://www.screenshotmachine.com/apiguide.php).  
+More info about options can be found in our [API doc](https://www.screenshotmachine.com/api.php).  
 
  Usage
 -----
