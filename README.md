@@ -12,7 +12,9 @@ CUSTOMER_KEY="PUT_YOUR_CUSTOMER_KEY_HERE"
 SECRET_PHRASE="" #leave secret phrase empty, if not needed
 ```
 
-Set other options to fulfill your needs: 
+## Website screenshot API
+
+Set the options to fulfill your needs: 
 
 ```bash
 URL="https://www.google.com"
@@ -23,16 +25,40 @@ CACHE_LIMIT="0"
 DELAY="2000"
 ZOOM="100"
 ```
-More info about options can be found in our [API doc](https://www.screenshotmachine.com/api.php).  
+More info about options can be found in our [Website screenshot API](https://www.screenshotmachine.com/website-screenshot-api.php).  
 
- Usage
------
+#### Usage
+
 
 Make this script executable by setting executable permissions and then run: 
 ```bash
 ./run.sh
 ```
 Captured screenshot will be saved as ```output.png``` file in current directory.
+
+## Website to PDF API
+
+Set the PDF options: 
+
+```bash
+URL="https://www.google.com"
+PAPER="letter"
+ORIENTATION="portrait"
+MEDIA="print"
+BG="nobg"
+DELAY="2000"
+SCALE="50"
+```
+More info about options can be found in our [Website to PDF API](https://www.screenshotmachine.com/website-to-pdf-api.php).  
+
+#### Usage
+
+
+Make this script executable by setting executable permissions and then run: 
+```bash
+./run_pdf.sh
+```
+Captured screenshot will be saved as ```output.pdf``` file in current directory.
 
 # License
 
